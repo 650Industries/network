@@ -1,0 +1,30 @@
+{
+  "name": "@exponent/network",
+  "version": "1.0.0",
+  "description": "A Promise-based interface into @tomas's network library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/650Industries/network.git"
+  },
+  "keywords": [
+    "network",
+    "lan",
+    "local",
+    "ip",
+    "interface"
+  ],
+  "author": "exponent.team@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/650Industries/network/issues"
+  },
+  "homepage": "https://github.com/650Industries/network#readme",
+  "dependencies": {
+    "instapromise": "^1.0.0",
+    "network": "^0.1.3"
+  }
+}
