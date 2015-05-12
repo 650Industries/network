@@ -1,6 +1,6 @@
 {
   "name": "@exponent/network",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Promise-based interface into @tomas's network library",
   "main": "index.js",
   "scripts": {
