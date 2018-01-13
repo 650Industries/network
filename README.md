@@ -1,20 +1,20 @@
 # network
 A Promise-based interface into @tomas's `network` library
 
-# install 
+## install 
 
 `bash
 terminal > npm --save i @exponent/network
 `
 
-# Usage
+## Usage
 
-## import it to your script
+### import it to your script
 `js
   const NetworkAysnc = require("@exponent/network");
   `
   
-  ## get Active Interface
+### get Active Interface
   `js
     NetworkAysnc.activeInterfaceAsync()
       
@@ -23,7 +23,7 @@ terminal > npm --save i @exponent/network
       .catch((error) => console.log("error gettings interface", error))
   `
   
-   ## get GateWay ip address
+### get GateWay ip address
   `js
     NetworkAysnc.gatewayIpAsync()
       
@@ -34,7 +34,7 @@ terminal > npm --save i @exponent/network
   
   
   
-   ## get list of Interfaces
+### get list of Interfaces
   `js
     NetworkAysnc.interfacesListAsync()
     
@@ -44,7 +44,7 @@ terminal > npm --save i @exponent/network
   `
   
   
-   ## get local ip for current machine
+### get local ip for current machine
   `js
     NetworkAysnc.privateIpAsync()
     
@@ -55,7 +55,7 @@ terminal > npm --save i @exponent/network
   
   
   
-   ## get public ip
+### get public ip
   `js
     NetworkAysnc.publicIpAsync()
     
